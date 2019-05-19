@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url();
+  src: url();
+}
+
+.page-about-us {
+  max-width: 1920px;
+  min-width: 1920px;
+  font-family: Open Sans, sans-serif;
+}
+
+
+
+.header {
+  height: 555px;
+  left: 0px;
+  top: 0px;
+  right: 0;
+  background: radial-gradient(318.85px at 52.55% 50%, #355B77 0%, #003B5D 100%);
+  
+  position: relative;
+}
+
+.container {
+  
+  position: relative;
+  top: 0;
+  right:0;
+  left: 0;
+  padding-top: 67px;
+  padding-left: 133px;
+  padding-right: 180px;
+  display: flex;
+  font-family: Asap;
+  font-style: normal;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.15em;
+
+  color: #FFFFFF;
+}
+
+.logotype {
+  width: 168px;
+  height: 89px;
+  
+  
+}
+
+ .logotype p {
+  display: block;
+  margin-top: 20px;
+  margin-left: 27px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.15em;
+  color: #FFBA2F;
+}
+
+.header-menu {
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-link .differ {
+  text-decoration: underline;
+  margin-right: 51px;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  color:  #FFBA2F;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-left: 27px;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.menu-list-item:nth-child(n +2) {
+  margin-left: 33px;
+}
+
+.contact-telephone {
+  display: flex;
+  padding-left: 45px;
+  background-image: url("images/phone.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: left 5px center;
+}
+
+.telephone-order {
+  margin-top: 20px;
+}
+
+
+.contact p, .telephone {
+  color: #FFBA2F;
+}
+
+h1 {
+  display: block;
+  width: 736px;
+  top: 205px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+}
+
+h1, .header-title {
+  
+  font-family: Alice;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 0.11em;
+  text-align: center;
+}
+
+
+.header-title {
+  color: #FFBA2F;
+}
+
+.header::after {
+  content: " ______________ ";
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 40px;
+  color: #FFBA2F;;
+    
+  position: absolute;
+  top: 447px;
+  left: 787px;
+}
+
+
+
+.page-about-us-footer {
+ 
+  height: 558px;
+  background-color: #003B5D;
+  font-family: Asap;
+  font-weight: normal;
+  position: relative;
+}
+
+.footer-logo-link {
+position: absolute;
+width: 168px;
+height: 89px;
+left: 173px;
+top: 80px;
+}
+
+.footer-address {
+  position: absolute;
+  width: 215px;
+  top: 100px;
+  left: 554px;
+}
+.footer-address  p {
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFBA2F;
+}
+
+.footer-nav {
+  position: absolute;
+  top: 85px;
+  left: 1021px;
+}
+
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nav-link .differ {
+  color: #FFBA2F;
+}
+
+.nav-list-item:nth-child(n +2) {
+  margin-top: 15px;
+}
+
+.enter-for-clients {
+  position: absolute;
+  left: 1447px;
+  top: 96px;
+  width: 306px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 2px solid #FFBA2F;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 93px;
+  background-image: url("images/padlock.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left 10px center;
+}
+
+
+.enter-for-clients p {
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.3;
+}
+
+.container-footer {
+  position:absolute;
+  top: 195px;
+  left: 1410px;
+  width: 335px;
+  height: 25px;
+}
+.socials {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.socials-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.socials-link-email {
+  background-image: url("images/email.png");
+}
+.socials-link-linkedin {
+  background-image: url("images/linkedin.png");
+}
+.socials-link-facebook {
+  background-image: url("images/facebook.png");
+}
+.socials-link-vkontacte {
+  background-image: url("images/vk.png")
+}
+.socials-link-youtube {
+  background-image: url("images/youtube.png")
+}
+
+.contacts-footer {
+  position: absolute;
+  top: 275px;
+  right: 116px;
+  display: block; 
+  text-decoration: none;
+  transform: rotate(-90deg);
+  font-family: inherit;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.copyright-footer {
+  display: block;
+  padding-top: 419px;
+  text-align: center;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: normal;
+  color: #FFBA2F;
+}
+
+
+.contacts-footer:hover, .enter-for-clients p:hover {
+  opacity: 1;
+}
